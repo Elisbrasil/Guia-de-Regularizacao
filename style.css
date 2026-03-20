@@ -30,12 +30,16 @@ body{font-family:'Playfair Display',serif;background:var(--cream);color:var(--te
 
 /* PAIN */
 .pain-bg{background:var(--cream)}
-.pain-grid{display:grid;grid-template-columns:1fr 1fr;gap:68px;align-items:start}
+.pain-top{margin-bottom:48px}
+.pain-top .sec-label{margin-bottom:10px}
+.pain-top .pain-body{margin-top:20px;margin-bottom:0}
+.pain-grid{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:start}
+.pain-se-voce{font-family:'Sora',sans-serif;font-size:.85rem;font-weight:600;letter-spacing:.05em;color:var(--navy);margin-bottom:16px}
 .pain-body{font-family:'Sora',sans-serif;font-size:.9rem;line-height:1.75;color:#444;margin:20px 0 28px}
 .pain-list{list-style:none;display:flex;flex-direction:column;gap:10px;margin-bottom:32px}
 .pain-list li{font-family:'Sora',sans-serif;font-size:.88rem;padding:12px 18px 12px 20px;border-left:3px solid var(--gold);background:white;box-shadow:0 2px 8px rgba(0,0,0,.05);line-height:1.5;transition:transform .2s,box-shadow .2s}
 .pain-list li:hover{transform:translateX(4px);box-shadow:0 4px 16px rgba(0,0,0,.09)}
-.pain-callout{font-size:1.4rem;font-weight:700;font-style:italic;color:var(--navy);line-height:1.35;margin-top:8px;padding:24px 0;border-top:2px solid var(--border-gold)}
+.pain-callout{font-size:1.2rem;font-weight:700;font-style:italic;color:var(--navy);line-height:1.35;margin-top:8px;padding:24px 0;border-top:2px solid var(--border-gold)}
 
 /* NEWS CARD */
 .news-card{background:white;box-shadow:0 8px 32px rgba(0,0,0,.1);overflow:hidden}
