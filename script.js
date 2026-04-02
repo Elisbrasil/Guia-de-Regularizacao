@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     __MOCKUP__: "img/notebook_guia.png",
     __DOCTOR__: "img/paraquem.jpg",
     __T1__: "img/primeiro_comentario.jpg",
-    __T2__: "img/segundo_comentario.jpg",
+    __T2__: "img/segundo_comentario.png",
     __T3__: "img/terceiro_comentario.jpg",
     __T4__: "img/quarto_comentario.jpg",
   };
