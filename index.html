@@ -73,8 +73,31 @@
   <section class="learn-bg">
     <div class="section">
       <div class="learn-grid">
-        <div class="learn-mockup reveal-left">
-          <img data-src="__MOCKUP__" alt="Guia de Regularização de Clínicas de Estética" src="">
+        <div class="learn-carousel">
+          <div class="learn-track" id="learnTrack">
+            <div class="learn-slide"><img data-src="__LEARN1__" alt="Conteúdo do guia 1" src=""></div>
+            <div class="learn-slide"><img data-src="__LEARN2__" alt="Conteúdo do guia 2" src=""></div>
+            <div class="learn-slide"><img data-src="__LEARN3__" alt="Conteúdo do guia 3" src=""></div>
+            <div class="learn-slide"><img data-src="__LEARN4__" alt="Conteúdo do guia 4" src=""></div>
+          </div>
+          <div class="learn-controls">
+            <button class="learn-btn" id="learnPrev">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                <polyline points="15 18 9 12 15 6" />
+              </svg>
+            </button>
+            <div class="learn-dots" id="learnDots">
+              <button class="learn-dot active" data-index="0"></button>
+              <button class="learn-dot" data-index="1"></button>
+              <button class="learn-dot" data-index="2"></button>
+              <button class="learn-dot" data-index="3"></button>
+            </div>
+            <button class="learn-btn" id="learnNext">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                <polyline points="9 18 15 12 9 6" />
+              </svg>
+            </button>
+          </div>
         </div>
         <div class="learn-content reveal-right">
           <div class="sec-label">Conteúdo do guia</div>

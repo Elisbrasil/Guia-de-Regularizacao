@@ -234,16 +234,6 @@ body {
   gap: 68px;
   align-items: center;
 }
-.learn-mockup {
-  position: relative;
-  display: flex;
-  justify-content: center;
-}
-.learn-mockup img {
-  width: 100%;
-  max-width: 420px;
-  filter: drop-shadow(0 24px 48px rgba(0, 0, 0, 0.5));
-}
 .learn-content .sec-title {
   color: var(--white);
   margin-bottom: 32px;
@@ -272,6 +262,72 @@ body {
   background: var(--gold);
   clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
 }
+.learn-carousel{
+  position: relative;
+  overflow: hidden;
+}
+.learn-track{
+  display: flex;
+  transition: transform 0.5s cubic-bezier(.4,0,.2,1)
+}
+.learn-slide{
+  flex: 0 0 100%;
+}
+.learn-slide img{
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  max-width: 420px;
+}
+.learn-controls{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+.learn-btn{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1.5px solid var(--gold);
+  background: transparent;
+  color: var(--gold);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition:
+    background 0.2s,
+    color 0.2s,
+    transform 0.15s;
+}
+.learn-btn:hover{
+  background: var(--gold);
+  color: var(--navy-dark);
+  transform: scale(1.08);
+}
+.learn-dots{
+  display: flex;
+  gap: 8px;
+}
+.learn-dot{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(201, 168, 76, 0.3);
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition:
+    background 0.3s,
+    transform 0.3s;
+}
+.learn-dot.active{
+  background: var(--gold);
+  transform: scale(1.3);
+}
+
 
 /* FOR WHOM */
 .whom-bg {
