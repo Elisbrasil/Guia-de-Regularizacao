@@ -65,7 +65,6 @@ body {
 .hero h1 {
   font-size: clamp(1.6rem, 3.2vw, 2.6rem);
   font-weight: 700;
-  text-transform: uppercase;
   color: var(--white);
   line-height: 1.2;
 }
